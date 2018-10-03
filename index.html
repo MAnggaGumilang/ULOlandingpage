@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="Assets/styles/bootstrap.min.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/styles/bootstrap-grid.min.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/styles/custom.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/styles/fullpage.css"  crossorigin="anonymous">
 
     <title>ULO</title>
   </head>
@@ -21,15 +22,15 @@
   </a>
   </a>
 </nav>
-
-<section class="banner">
+<div id="fullpage">
+<section class="banner section active">
   <div class="container">
     <h1> Be the <strong> First </strong> to <br/> <strong>Experience </strong> ULO ! </h1>
     <h3> Enjoy lifestyle services with jaw-dropping discounts. <br/>
     The right discounts at right time. </h3>
   </div>
 </section>
-<section class="main">
+<section class="main section">
   <div class="container">
           <h1> Alvailable Now On: </h1>
     <div class="row">
@@ -46,7 +47,7 @@
     </div>
   </div>
 </section>
-<section class="contact">
+<section class="contact section">
 <div class="container">
   <h1> Contact Us </h1>
 <form>
@@ -63,9 +64,15 @@
 </form>
 </div>
 </section>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="Assets/scripts/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="Assets/scripts/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="Assets/scripts/fullpage.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+  var myFullpage = new fullpage('#fullpage', );
+</script>
+
   </body>
 </html>
