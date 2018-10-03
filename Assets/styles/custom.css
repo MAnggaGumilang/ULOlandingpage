@@ -1,13 +1,16 @@
 .navbar {
 	z-index: 100;
 }
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
 .banner {
 	background: url('../../Assets/images/bg1.jpg');
 	height: 800px;
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-/*    padding: 200px 20px 100px 20px;*/
 }
 
 .banner h1 {
@@ -23,15 +26,11 @@
 	letter-spacing: 5px;
 }
 
-/*.main {
-	padding: 250px 30px;
-}*/
 .main h1 {
 	text-align: center;
 }
 .contact {
 	background: #eee;
-/*	padding: 140px 30px;*/
 	text-align: center;
 }
 .contact h1 {
