@@ -91,10 +91,13 @@
     <script src="Assets/scripts/fullpage.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
   var myFullpage = new fullpage('#fullpage', {
-        verticalCentered: true,
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
         menu: '#menu',
-        lazyLoad: true
+        lazyLoad: true,
+          responsiveHeight: 600,
+        afterResponsive: function(isResponsive){
+
+        }
     });
 </script>
 

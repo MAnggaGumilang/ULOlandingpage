@@ -47,3 +47,19 @@
 	color: #495057;
 	padding: 5px 5px 5px 10px;
 }
+
+@media (max-width: 992px) {
+.banner, .main, .contact {
+	padding: 40px;
+}
+.banner h1 {
+	font-size: 3rem;
+}
+.banner h3 {
+	font-size: 1.5em;
+}
+.main img {
+	width: 100%;
+	height: auto;
+}
+}
